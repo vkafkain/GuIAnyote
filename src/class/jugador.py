@@ -9,4 +9,8 @@ class Jugador:
         self.bazas_ganadas = []
       #  self.equipo = None #para próximas versiones
 
+    def jugar_carta(self):
+        
+        if self.mano:
+            return self.mano.pop(0)
         

@@ -1,0 +1,19 @@
+# Entornos virtuales
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de prueba y cobertura
+.coverage
+*.coverage
+coverage/
+
+# Configuración local
+*.env
+.env
+
+# Base de datos
+*.db

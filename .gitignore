@@ -17,3 +17,6 @@ coverage/
 
 # Base de datos
 *.db
+
+*.myenv
+.myenv

@@ -13,4 +13,10 @@ class Jugador:
         
         if self.mano:
             return self.mano.pop(0)
-        
+        return None
+    
+    def recibir_cartasd(self, carta):
+        self.mano.append(carta)
+
+    def __str__(self):
+        return f"{self.nombre} (IA: {self.es_ia})"

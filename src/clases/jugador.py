@@ -18,5 +18,7 @@ class Jugador:
     def recibir_cartasd(self, carta):
         self.mano.append(carta)
 
+    # def robar_carta(self, carta):
+
     def __str__(self):
         return f"{self.nombre} (IA: {self.es_ia})"
